@@ -6,6 +6,11 @@ module.exports = {
     'import/no-unresolved': 'error',
     // Since React 17 and typescript 4.1 you can safely disable the rule
     'react/react-in-jsx-scope': 'off',
+    'react/require-default-props': 'warn',
+    'react/jsx-props-no-spreading': 'warn',
+    'react/destructuring-assignment': 'warn',
+    'import/prefer-default-export': 'warn',
+    'promise/always-return': 'warn',
   },
   parserOptions: {
     ecmaVersion: 2020,
